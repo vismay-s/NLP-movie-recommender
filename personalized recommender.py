@@ -54,7 +54,7 @@ for j in range (20):
 Personalized_list = sorted(perslist, key=lambda perslist:perslist[1],reverse=True)
 k=0
 
-print("Top 10 similar movies to "+movie_liked+" are:\n")
+print("Top 10 movies similar to "+movie_liked+" are:\n")
 for element in Personalized_list:
     print(get_title_from_index(element[0]))
     k=k+1
